@@ -1,0 +1,45 @@
+body{
+    background: rgb(184, 255, 246);
+}
+
+#irAlJuego{
+
+    background: rgb(255, 7, 243);
+    border-radius: 0.3em;
+    display: block;
+    margin: 1em auto;
+    /* padding: 0.2em; */
+    width: 20%;
+}
+
+#mijuego{
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);
+    margin:250px auto;
+    width:40% ;
+    
+}
+
+#mijuego label{
+    display: block;
+    margin: 0.5em;
+}
+
+#mijuego fieldset{
+    background: rgba(239, 242, 247, 0.3) center no-repeat;
+    /* border:#fff solid; */
+    border-radius: 2em;
+    height: 200px;
+    padding: 2em;
+
+}
+
+.capa{
+    
+    position:absolute;
+    top:0;
+    z-index: -1;
+}
+.capa img{
+    
+    width: 1300px;
+}
